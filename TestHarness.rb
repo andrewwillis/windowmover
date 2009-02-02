@@ -7,6 +7,8 @@
 #
 
 class TestHarness
+  attr_writer :menu
+  
   def awakeFromNib
   
 	# register the hotkey
@@ -19,8 +21,7 @@ class TestHarness
 	icon_path = bundle.pathForResource("menubar_icon", ofType:"tif")
 	status_item = NSStatusBar.systemStatusBar.statusItemWithLength(24) # TODO: why is 24 the right size here?
 	status_item.image = NSImage.new.initWithContentsOfFile(icon_path)
-	status_item.target = self
-	status_item.action = "statusItemClicked:"
+	status_item.menu = @menu
   end
   
   def statusItemClicked(sender)
