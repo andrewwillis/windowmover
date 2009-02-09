@@ -29,10 +29,8 @@ class TestHarness
   end
   
   def buttonClicked(sender)
-	puts "button clicked"
 	front = FrontWindow.new
 	frame = front.frame
-	NSLog("front window at x=#{frame.origin.x}, y=#{frame.origin.y}")
 	front.toggleScreen
   end
 end
