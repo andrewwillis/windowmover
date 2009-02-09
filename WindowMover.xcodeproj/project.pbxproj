@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4911B6240F2AAA4B00F388CC /* front_window.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4911B6230F2AAA4B00F388CC /* front_window.rb */; };
 		496208340F300F28009D1D78 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 496208320F300F28009D1D78 /* icon.icns */; };
+		496BAE8B0F3B829400DB59A0 /* NDHotKeyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 496BAE8A0F3B829400DB59A0 /* NDHotKeyControl.m */; };
 		49B54B190F33EC0F00480F45 /* menubar_icon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 49B54B180F33EC0F00480F45 /* menubar_icon.tif */; };
 		49DE63120F288D60000BDD7B /* NDHotKeyEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DE630F0F288D60000BDD7B /* NDHotKeyEvent.m */; };
 		49DE63130F288D60000BDD7B /* WWFrontWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DE63110F288D60000BDD7B /* WWFrontWindow.m */; };
@@ -32,6 +33,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4911B6230F2AAA4B00F388CC /* front_window.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = front_window.rb; sourceTree = "<group>"; };
 		496208330F300F28009D1D78 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = English; path = English.lproj/icon.icns; sourceTree = "<group>"; };
+		496BAE890F3B829400DB59A0 /* NDHotKeyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDHotKeyControl.h; sourceTree = "<group>"; };
+		496BAE8A0F3B829400DB59A0 /* NDHotKeyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDHotKeyControl.m; sourceTree = "<group>"; };
 		49B54B180F33EC0F00480F45 /* menubar_icon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = menubar_icon.tif; sourceTree = "<group>"; };
 		49DE630E0F288D60000BDD7B /* NDHotKeyEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDHotKeyEvent.h; sourceTree = "<group>"; };
 		49DE630F0F288D60000BDD7B /* NDHotKeyEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDHotKeyEvent.m; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 		49DE63140F288D68000BDD7B /* ObjectiveC Classes */ = {
 			isa = PBXGroup;
 			children = (
+				496BAE890F3B829400DB59A0 /* NDHotKeyControl.h */,
+				496BAE8A0F3B829400DB59A0 /* NDHotKeyControl.m */,
 				49DE630E0F288D60000BDD7B /* NDHotKeyEvent.h */,
 				49DE630F0F288D60000BDD7B /* NDHotKeyEvent.m */,
 				4911B6230F2AAA4B00F388CC /* front_window.rb */,
@@ -213,6 +218,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				49DE63120F288D60000BDD7B /* NDHotKeyEvent.m in Sources */,
 				49DE63130F288D60000BDD7B /* WWFrontWindow.m in Sources */,
+				496BAE8B0F3B829400DB59A0 /* NDHotKeyControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
